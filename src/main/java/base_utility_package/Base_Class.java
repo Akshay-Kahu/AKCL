@@ -16,6 +16,7 @@ import org.testng.Reporter;
 
 public class Base_Class {
 	public static WebDriver driver;
+	public static Utility_Class utility_class;
 
 	public static void Launch_Browser(String Browser_Name) {
 
@@ -51,7 +52,8 @@ public class Base_Class {
 	}
 
 	public static void Initialization() {
-
+		utility_class = new Utility_Class(driver);
+		
 	}
 
 	public static void Refresh_Browser() {
@@ -92,6 +94,7 @@ public class Base_Class {
 	public static void Switch_to_Parent() {
 		driver.switchTo().window(driver.getWindowHandle());
 	}
+	
 
 	public static String Get_Property_Text(String key) throws IOException {
 		Properties property = new Properties();

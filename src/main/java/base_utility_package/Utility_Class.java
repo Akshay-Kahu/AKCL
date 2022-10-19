@@ -15,11 +15,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.io.FileHandler;
 import org.testng.Reporter;
 
-public class Utility_class {
+public class Utility_Class {
 
 	WebDriver driver;
 
-	public Utility_class(WebDriver driver1) {
+	public Utility_Class(WebDriver driver1) {
 		driver = driver1;
 	}
 
