@@ -24,7 +24,7 @@ public class Utility_class {
 	}
 
 	public String Get_Excel_Data(int row_index, int cell_index) throws EncryptedDocumentException, IOException {
-		FileInputStream file = new FileInputStream(System.getProperty("user.dir" + "src/test/resources/TC_Data.xlsx"));
+		FileInputStream file = new FileInputStream(System.getProperty("user.dir" + "/Maven_FlipKart_Validation/src/test/resources/TC_Data.xlsx"));
 		Sheet sheet = WorkbookFactory.create(file).getSheet("Flipkart");
 		Cell cell = sheet.getRow(row_index).getCell(cell_index);
 		try {
