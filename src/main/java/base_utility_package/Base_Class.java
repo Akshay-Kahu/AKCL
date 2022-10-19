@@ -3,7 +3,9 @@ package base_utility_package;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.Iterator;
 import java.util.Properties;
+import java.util.Set;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
@@ -40,7 +42,7 @@ public class Base_Class {
 		
 		driver.manage().window().maximize();
 		
-		driver.get(Get_Property_Text("Browser"));
+		driver.get(Get_Property_Text("URL"));
 		
 	}
 
@@ -71,11 +73,17 @@ public class Base_Class {
 	}
 	
 	public static void Alert_pop_Dismiss() {
-		Alert al = driver.switchTo().alert(); 
-		
-		System.out.println(al.getText());
-		
-		al.dismiss();
+		driver.switchTo().alert().dismiss(); 
+	}
+	public static void Switch_to_Child() {
+		Set<String> windows = driver.getWindowHandles();
+		Iterator<String> it = windows.iterator();
+		it.next();
+		driver.switchTo().window(it.next());
+	}
+	
+	public static void Switch_to_Parent() {
+		driver.switchTo().window(driver.getWindowHandle());
 	}
 	
 	public static String Get_Property_Text(String key) throws IOException {

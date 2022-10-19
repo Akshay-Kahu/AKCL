@@ -20,4 +20,11 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/test/resources/TC_Data.xlsx</name>
+			<type>1</type>
+			<location>C:/Users/aksha/OneDrive/Desktop/Test Data/Excel Sheet/TC_Data.xlsx</location>
+		</link>
+	</linkedResources>
 </projectDescription>
