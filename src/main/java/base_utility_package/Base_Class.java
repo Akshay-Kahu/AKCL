@@ -17,7 +17,7 @@ import org.testng.Reporter;
 public class Base_Class {
 	public static WebDriver driver;
 	
-	public static void Launch_Browser(String Browser_Name) throws IOException {
+	public static void Launch_Browser(String Browser_Name) {
 		
 		switch (Browser_Name) {
 		case "Chrome":
@@ -42,7 +42,11 @@ public class Base_Class {
 		
 		driver.manage().window().maximize();
 		
-		driver.get(Get_Property_Text("URL"));
+		try {
+			driver.get(Get_Property_Text("URL"));
+		} catch (IOException e) {
+			Reporter.log("Check URL from Properties File");
+		}
 		
 	}
 
@@ -64,17 +68,22 @@ public class Base_Class {
 		driver.close();
 	}
 	
+	public static void Quit_Browser() {
+		driver.quit();
+	}
+	
 	public static void Static_Wait(int sec) {
 		try {
 			Thread.sleep(sec*1000);
 		} catch (Exception e) {
-			Reporter.log("Wait unable working",true);
+			Reporter.log("Wait not working",true);
 		}
 	}
 	
 	public static void Alert_pop_Dismiss() {
 		driver.switchTo().alert().dismiss(); 
 	}
+	
 	public static void Switch_to_Child() {
 		Set<String> windows = driver.getWindowHandles();
 		Iterator<String> it = windows.iterator();
