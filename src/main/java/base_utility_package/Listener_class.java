@@ -1,10 +1,23 @@
 package base_utility_package;
 
-public class Listener_class {
+import org.testng.ITestListener;
+import org.testng.ITestResult;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Dilesh create Listner");
+public class Listener_class implements ITestListener {
+
+	
+	
+		@Override
+		public void onTestFailure (ITestResult result) {
+			
+		}
+		@Override
+		public void onTestSuccess (ITestResult result) {
+			
+		}
+		@Override
+		public void onTestSkipped (ITestResult result) {
+			
+		}
+
 	}
-
-}
