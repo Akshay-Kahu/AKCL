@@ -20,6 +20,9 @@ public class Base_Class {
 	public static WebDriver driver;
 	public static Utility_Class utility_class;
 	public static TOP_Offer top_offer;
+	public static Properties property;
+	public static FileInputStream file;
+	
 	public static void Launch_Browser(String Browser_Name) {
 		
 		switch (Browser_Name) {
@@ -44,7 +47,7 @@ public class Base_Class {
 		}
 
 		driver.manage().window().maximize();
-
+		
 		try {
 			driver.get(Get_Property_Text("URL"));
 		} catch (IOException e) {
@@ -116,7 +119,7 @@ public class Base_Class {
 	public static String Get_Property_Text(String key) throws IOException {
 		Properties property = new Properties();
 		FileInputStream file = new FileInputStream(System
-				.getProperty("user.dir" + "Maven_FlipKart_Validation\\src\\test\\resources\\Flipkart.properties"));
+				.getProperty("user.dir")+"\\src\\test\\resources\\Flipkart.properties");
 		property.load(file);
 		return property.getProperty(key);
 	}
