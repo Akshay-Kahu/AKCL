@@ -14,12 +14,14 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Reporter;
 
+import pom_package.TOP_Offer;
+
 public class Base_Class {
 	public static WebDriver driver;
 	public static Utility_Class utility_class;
-
+	public static TOP_Offer top_offer;
 	public static void Launch_Browser(String Browser_Name) {
-
+		
 		switch (Browser_Name) {
 		case "Chrome":
 			System.setProperty("webdriver.chrome.driver", "F:\\Automation Tools\\chromedriver_win32\\chromedriver.exe");
@@ -53,7 +55,8 @@ public class Base_Class {
 
 	public static void Initialization() {
 		utility_class = new Utility_Class(driver);
-		
+		top_offer = new TOP_Offer(driver);
+
 	}
 
 	public static void Refresh_Browser() {
@@ -80,8 +83,16 @@ public class Base_Class {
 		}
 	}
 
+	public static void Alert_pop_Accept() {
+		driver.switchTo().alert().accept();
+	}
+
 	public static void Alert_pop_Dismiss() {
 		driver.switchTo().alert().dismiss();
+	}
+
+	public static String Alert_pop_Get_text() {
+		return driver.switchTo().alert().getText();
 	}
 
 	public static void Switch_to_Child() {
@@ -89,12 +100,18 @@ public class Base_Class {
 		Iterator<String> it = windows.iterator();
 		it.next();
 		driver.switchTo().window(it.next());
+		driver.getTitle();
+//		Set<String> windows = driver.getWindowHandles();
+//		Iterator<String> it = windows.iterator();
+//		String MainWindow = it.next();
+//		String ChildWindow = it.next();
+//		driver.switchTo().window(MainWindow);
+//		driver.switchTo().window(ChildWindow);
 	}
 
 	public static void Switch_to_Parent() {
 		driver.switchTo().window(driver.getWindowHandle());
 	}
-	
 
 	public static String Get_Property_Text(String key) throws IOException {
 		Properties property = new Properties();
@@ -103,5 +120,4 @@ public class Base_Class {
 		property.load(file);
 		return property.getProperty(key);
 	}
-
 }

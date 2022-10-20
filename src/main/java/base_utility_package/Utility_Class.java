@@ -37,7 +37,7 @@ public class Utility_Class {
 
 	public void Take_Screen_shot() {
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		File dest = new File(System.getProperty("user.dir" + "ScreenShot_Proof"));
+		File dest = new File(System.getProperty("user.dir" + "Maven_FlipKart_Validation\\ScreenShot_Proof"));
 		try {
 			FileHandler.copy(src, dest);
 		} catch (IOException e) {
