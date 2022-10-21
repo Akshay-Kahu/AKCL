@@ -3,22 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test_package.Validate_Top_Offers">
+      <class name="test_package.Validate_Grocery">
         <methods>
-          <include name="Initial_Activity"/>
-          <include name="quit"/>
-          <include name="Validate_Musical_toys"/>
-          <include name="Validate_Water_Bottle"/>
-          <include name="Navigate_to"/>
-          <include name="Validate_Hp_mouse"/>
-          <include name="Validate_Soundbar_Home_theatres"/>
-          <include name="Handle_pop_up"/>
-          <include name="Validate_Lunch_Box"/>
-          <include name="Validate_Office_supplies"/>
-          <include name="Validate_Puzzle"/>
-          <include name="Validate_pens"/>
+          <include name="Inital_Activity"/>
+          <include name="Grocery_validation"/>
+          <include name="URL_Launch"/>
         </methods>
-      </class> <!-- test_package.Validate_Top_Offers -->
+      </class> <!-- test_package.Validate_Grocery -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

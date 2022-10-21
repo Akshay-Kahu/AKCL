@@ -1,5 +1,7 @@
 package test_package;
 
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.Reporter;
@@ -13,9 +15,9 @@ public class Validate_Grocery extends Base_Class {
 	
 	
 	@BeforeClass
-	public void Inital_Activity() {
-		Launch_Browser(getpropertyvalue(Chrome));
-		Thread.sleep(1000);
+	public void Inital_Activity() throws IOException {
+		Launch_Browser(Get_Property_Text("Browser"));
+		Static_Wait(3);
 		Initialization();
 
 }
@@ -28,7 +30,7 @@ public class Validate_Grocery extends Base_Class {
 	}
 	@Test
 	public void Grocery_validation() {
-		Actual = Grocery Prices In India();
+		//Actual = Grocery Prices In India();
 	}
 
 }
