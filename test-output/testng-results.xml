@@ -1,79 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="13" passed="7" failed="6" skipped="0">
+<testng-results ignored="0" total="13" passed="5" failed="8" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-21T02:00:57 IST" name="Default suite" finished-at="2022-10-21T02:04:51 IST" duration-ms="234098">
+  <suite started-at="2022-10-21T11:48:26 IST" name="Default suite" finished-at="2022-10-21T11:52:38 IST" duration-ms="252096">
     <groups>
     </groups>
-    <test started-at="2022-10-21T02:00:57 IST" name="Default test" finished-at="2022-10-21T02:04:51 IST" duration-ms="234098">
+    <test started-at="2022-10-21T11:48:26 IST" name="Default test" finished-at="2022-10-21T11:52:38 IST" duration-ms="252096">
       <class name="test_package.Validate_Top_Offers">
-        <test-method is-config="true" signature="Initial_Activity()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:00:57 IST" name="Initial_Activity" finished-at="2022-10-21T02:01:18 IST" duration-ms="20787" status="PASS">
+        <test-method is-config="true" signature="Initial_Activity()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:48:26 IST" name="Initial_Activity" finished-at="2022-10-21T11:49:00 IST" duration-ms="33625" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initial_Activity -->
-        <test-method is-config="true" signature="Handle_pop_up()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:01:18 IST" name="Handle_pop_up" finished-at="2022-10-21T02:01:23 IST" duration-ms="5113" status="PASS">
+        <test-method is-config="true" signature="Handle_pop_up()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:49:00 IST" name="Handle_pop_up" finished-at="2022-10-21T11:49:05 IST" duration-ms="5324" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Handle_pop_up -->
-        <test-method signature="Validate_Apple_ipad()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:01:23 IST" name="Validate_Apple_ipad" finished-at="2022-10-21T02:01:28 IST" duration-ms="5042" status="PASS">
+        <test-method signature="Validate_Apple_ipad()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:49:05 IST" name="Validate_Apple_ipad" finished-at="2022-10-21T11:49:10 IST" duration-ms="5123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_Apple_ipad -->
-        <test-method is-config="true" signature="Navigate_to()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:01:28 IST" name="Navigate_to" finished-at="2022-10-21T02:01:38 IST" duration-ms="10521" status="PASS">
+        <test-method is-config="true" signature="Navigate_to()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:49:10 IST" name="Navigate_to" finished-at="2022-10-21T11:49:17 IST" duration-ms="7244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Navigate_to -->
-        <test-method is-config="true" signature="Handle_pop_up()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:01:38 IST" name="Handle_pop_up" finished-at="2022-10-21T02:01:43 IST" duration-ms="5102" status="PASS">
+        <test-method is-config="true" signature="Handle_pop_up()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:49:17 IST" name="Handle_pop_up" finished-at="2022-10-21T11:49:23 IST" duration-ms="5435" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Handle_pop_up -->
-        <test-method signature="Validate_Home_Temples()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:01:43 IST" name="Validate_Home_Temples" finished-at="2022-10-21T02:01:48 IST" duration-ms="5061" status="PASS">
+        <test-method signature="Validate_Home_Temples()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:49:23 IST" name="Validate_Home_Temples" finished-at="2022-10-21T11:49:28 IST" duration-ms="5084" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_Home_Temples -->
-        <test-method is-config="true" signature="Navigate_to()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:01:48 IST" name="Navigate_to" finished-at="2022-10-21T02:01:54 IST" duration-ms="5693" status="PASS">
+        <test-method is-config="true" signature="Navigate_to()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:49:28 IST" name="Navigate_to" finished-at="2022-10-21T11:49:34 IST" duration-ms="6299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Navigate_to -->
-        <test-method is-config="true" signature="Handle_pop_up()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:01:54 IST" name="Handle_pop_up" finished-at="2022-10-21T02:01:59 IST" duration-ms="5128" status="PASS">
+        <test-method is-config="true" signature="Handle_pop_up()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:49:34 IST" name="Handle_pop_up" finished-at="2022-10-21T11:49:40 IST" duration-ms="5222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Handle_pop_up -->
-        <test-method signature="Validate_Hp_mouse()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:01:59 IST" name="Validate_Hp_mouse" finished-at="2022-10-21T02:02:04 IST" duration-ms="5054" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Validate_Hp_mouse -->
-        <test-method is-config="true" signature="Navigate_to()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:02:04 IST" name="Navigate_to" finished-at="2022-10-21T02:02:11 IST" duration-ms="6482" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Navigate_to -->
-        <test-method is-config="true" signature="Handle_pop_up()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:02:11 IST" name="Handle_pop_up" finished-at="2022-10-21T02:02:16 IST" duration-ms="5099" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Handle_pop_up -->
-        <test-method signature="Validate_Learning_toy()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:02:16 IST" name="Validate_Learning_toy" finished-at="2022-10-21T02:02:21 IST" duration-ms="5060" status="FAIL">
+        <test-method signature="Validate_Hp_mouse()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:49:40 IST" name="Validate_Hp_mouse" finished-at="2022-10-21T11:49:45 IST" duration-ms="5126" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div//div[text()='Learning toys']"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div//div[text()='HP']"}
   (Session info: chrome=106.0.5249.119)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'AKSHAY', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\aksha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60415}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a6f1496f41394eed3632cbd6ed33b944
-*** Element info: {Using=xpath, value=//div//div[text()='Learning toys']}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\aksha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a4d852104c10987c77cf2b88129c40d
+*** Element info: {Using=xpath, value=//div//div[text()='HP']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div//div[text()='Learning toys']"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div//div[text()='HP']"}
   (Session info: chrome=106.0.5249.119)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'AKSHAY', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\aksha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60415}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a6f1496f41394eed3632cbd6ed33b944
-*** Element info: {Using=xpath, value=//div//div[text()='Learning toys']}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\aksha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a4d852104c10987c77cf2b88129c40d
+*** Element info: {Using=xpath, value=//div//div[text()='HP']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -92,8 +80,8 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 at jdk.proxy2/jdk.proxy2.$Proxy14.getText(Unknown Source)
-at pom_package.TOP_Offer.learning_toys(TOP_Offer.java:130)
-at test_package.Validate_Top_Offers.Validate_Learning_toy(Validate_Top_Offers.java:124)
+at pom_package.TOP_Offer.hp_mouse(TOP_Offer.java:106)
+at test_package.Validate_Top_Offers.Validate_Hp_mouse(Validate_Top_Offers.java:79)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -127,40 +115,198 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Validate_Learning_toy -->
-        <test-method is-config="true" signature="Navigate_to()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:02:21 IST" name="Navigate_to" finished-at="2022-10-21T02:02:28 IST" duration-ms="6687" status="PASS">
+        </test-method> <!-- Validate_Hp_mouse -->
+        <test-method is-config="true" signature="Navigate_to()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:49:45 IST" name="Navigate_to" finished-at="2022-10-21T11:49:52 IST" duration-ms="7009" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Navigate_to -->
-        <test-method is-config="true" signature="Handle_pop_up()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:02:28 IST" name="Handle_pop_up" finished-at="2022-10-21T02:02:33 IST" duration-ms="5100" status="PASS">
+        <test-method is-config="true" signature="Handle_pop_up()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:49:52 IST" name="Handle_pop_up" finished-at="2022-10-21T11:49:57 IST" duration-ms="5179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Handle_pop_up -->
-        <test-method signature="Validate_Lunch_Box()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:02:33 IST" name="Validate_Lunch_Box" finished-at="2022-10-21T02:02:38 IST" duration-ms="5054" status="PASS">
+        <test-method signature="Validate_Learning_toy()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:49:57 IST" name="Validate_Learning_toy" finished-at="2022-10-21T11:50:02 IST" duration-ms="5075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Learning_toy -->
+        <test-method is-config="true" signature="Navigate_to()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:50:02 IST" name="Navigate_to" finished-at="2022-10-21T11:50:08 IST" duration-ms="6381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigate_to -->
+        <test-method is-config="true" signature="Handle_pop_up()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:50:08 IST" name="Handle_pop_up" finished-at="2022-10-21T11:50:14 IST" duration-ms="5602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Handle_pop_up -->
+        <test-method signature="Validate_Lunch_Box()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:50:14 IST" name="Validate_Lunch_Box" finished-at="2022-10-21T11:50:19 IST" duration-ms="5067" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div//div[text()='Lunch Boxes']"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AKSHAY', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\aksha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a4d852104c10987c77cf2b88129c40d
+*** Element info: {Using=xpath, value=//div//div[text()='Lunch Boxes']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div//div[text()='Lunch Boxes']"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AKSHAY', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\aksha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a4d852104c10987c77cf2b88129c40d
+*** Element info: {Using=xpath, value=//div//div[text()='Lunch Boxes']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.getText(Unknown Source)
+at pom_package.TOP_Offer.Lunch_Box(TOP_Offer.java:110)
+at test_package.Validate_Top_Offers.Validate_Lunch_Box(Validate_Top_Offers.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_Lunch_Box -->
-        <test-method is-config="true" signature="Navigate_to()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:02:38 IST" name="Navigate_to" finished-at="2022-10-21T02:02:44 IST" duration-ms="5754" status="PASS">
+        <test-method is-config="true" signature="Navigate_to()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:50:19 IST" name="Navigate_to" finished-at="2022-10-21T11:50:26 IST" duration-ms="7048" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Navigate_to -->
-        <test-method is-config="true" signature="Handle_pop_up()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:02:44 IST" name="Handle_pop_up" finished-at="2022-10-21T02:02:49 IST" duration-ms="5105" status="PASS">
+        <test-method is-config="true" signature="Handle_pop_up()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:50:26 IST" name="Handle_pop_up" finished-at="2022-10-21T11:50:31 IST" duration-ms="5120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Handle_pop_up -->
-        <test-method signature="Validate_Musical_toys()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:02:49 IST" name="Validate_Musical_toys" finished-at="2022-10-21T02:02:54 IST" duration-ms="5052" status="PASS">
+        <test-method signature="Validate_Musical_toys()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:50:31 IST" name="Validate_Musical_toys" finished-at="2022-10-21T11:50:36 IST" duration-ms="5035" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div//div[text()='Musical Toys']"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AKSHAY', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\aksha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a4d852104c10987c77cf2b88129c40d
+*** Element info: {Using=xpath, value=//div//div[text()='Musical Toys']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div//div[text()='Musical Toys']"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AKSHAY', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\aksha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a4d852104c10987c77cf2b88129c40d
+*** Element info: {Using=xpath, value=//div//div[text()='Musical Toys']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.getText(Unknown Source)
+at pom_package.TOP_Offer.musical_toys(TOP_Offer.java:122)
+at test_package.Validate_Top_Offers.Validate_Musical_toys(Validate_Top_Offers.java:109)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_Musical_toys -->
-        <test-method is-config="true" signature="Navigate_to()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:02:54 IST" name="Navigate_to" finished-at="2022-10-21T02:02:59 IST" duration-ms="5684" status="PASS">
+        <test-method is-config="true" signature="Navigate_to()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:50:36 IST" name="Navigate_to" finished-at="2022-10-21T11:50:42 IST" duration-ms="6031" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Navigate_to -->
-        <test-method is-config="true" signature="Handle_pop_up()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:02:59 IST" name="Handle_pop_up" finished-at="2022-10-21T02:03:04 IST" duration-ms="5114" status="PASS">
+        <test-method is-config="true" signature="Handle_pop_up()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:50:42 IST" name="Handle_pop_up" finished-at="2022-10-21T11:50:47 IST" duration-ms="5212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Handle_pop_up -->
-        <test-method signature="Validate_Office_supplies()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:03:04 IST" name="Validate_Office_supplies" finished-at="2022-10-21T02:03:10 IST" duration-ms="5040" status="FAIL">
+        <test-method signature="Validate_Office_supplies()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:50:47 IST" name="Validate_Office_supplies" finished-at="2022-10-21T11:50:53 IST" duration-ms="5090" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div//div[text()='Office Supplies']"}
@@ -169,8 +315,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'AKSHAY', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\aksha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60415}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a6f1496f41394eed3632cbd6ed33b944
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\aksha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a4d852104c10987c77cf2b88129c40d
 *** Element info: {Using=xpath, value=//div//div[text()='Office Supplies']}]]>
             </message>
             <full-stacktrace>
@@ -180,8 +326,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'AKSHAY', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\aksha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60415}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a6f1496f41394eed3632cbd6ed33b944
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\aksha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a4d852104c10987c77cf2b88129c40d
 *** Element info: {Using=xpath, value=//div//div[text()='Office Supplies']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
@@ -237,15 +383,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_Office_supplies -->
-        <test-method is-config="true" signature="Navigate_to()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:03:10 IST" name="Navigate_to" finished-at="2022-10-21T02:03:15 IST" duration-ms="5628" status="PASS">
+        <test-method is-config="true" signature="Navigate_to()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:50:53 IST" name="Navigate_to" finished-at="2022-10-21T11:51:00 IST" duration-ms="6963" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Navigate_to -->
-        <test-method is-config="true" signature="Handle_pop_up()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:03:15 IST" name="Handle_pop_up" finished-at="2022-10-21T02:03:20 IST" duration-ms="5086" status="PASS">
+        <test-method is-config="true" signature="Handle_pop_up()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:51:00 IST" name="Handle_pop_up" finished-at="2022-10-21T11:51:05 IST" duration-ms="5102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Handle_pop_up -->
-        <test-method signature="Validate_Puzzle()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:03:20 IST" name="Validate_Puzzle" finished-at="2022-10-21T02:03:25 IST" duration-ms="5040" status="FAIL">
+        <test-method signature="Validate_Puzzle()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:51:05 IST" name="Validate_Puzzle" finished-at="2022-10-21T11:51:10 IST" duration-ms="5045" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div//div[text()='Puzzle']"}
@@ -254,8 +400,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'AKSHAY', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\aksha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60415}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a6f1496f41394eed3632cbd6ed33b944
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\aksha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a4d852104c10987c77cf2b88129c40d
 *** Element info: {Using=xpath, value=//div//div[text()='Puzzle']}]]>
             </message>
             <full-stacktrace>
@@ -265,8 +411,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'AKSHAY', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\aksha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60415}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a6f1496f41394eed3632cbd6ed33b944
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\aksha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a4d852104c10987c77cf2b88129c40d
 *** Element info: {Using=xpath, value=//div//div[text()='Puzzle']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
@@ -322,100 +468,27 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_Puzzle -->
-        <test-method is-config="true" signature="Navigate_to()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:03:25 IST" name="Navigate_to" finished-at="2022-10-21T02:03:31 IST" duration-ms="5827" status="PASS">
+        <test-method is-config="true" signature="Navigate_to()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:51:10 IST" name="Navigate_to" finished-at="2022-10-21T11:51:16 IST" duration-ms="6361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Navigate_to -->
-        <test-method is-config="true" signature="Handle_pop_up()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:03:31 IST" name="Handle_pop_up" finished-at="2022-10-21T02:03:36 IST" duration-ms="5120" status="PASS">
+        <test-method is-config="true" signature="Handle_pop_up()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:51:16 IST" name="Handle_pop_up" finished-at="2022-10-21T11:51:21 IST" duration-ms="5139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Handle_pop_up -->
-        <test-method signature="Validate_Sandisk()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:03:36 IST" name="Validate_Sandisk" finished-at="2022-10-21T02:03:41 IST" duration-ms="5041" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div//div[text()='SanDisk']"}
-  (Session info: chrome=106.0.5249.119)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'AKSHAY', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\aksha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60415}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a6f1496f41394eed3632cbd6ed33b944
-*** Element info: {Using=xpath, value=//div//div[text()='SanDisk']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div//div[text()='SanDisk']"}
-  (Session info: chrome=106.0.5249.119)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'AKSHAY', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\aksha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60415}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a6f1496f41394eed3632cbd6ed33b944
-*** Element info: {Using=xpath, value=//div//div[text()='SanDisk']}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy14.getText(Unknown Source)
-at pom_package.TOP_Offer.sandisk(TOP_Offer.java:86)
-at test_package.Validate_Top_Offers.Validate_Sandisk(Validate_Top_Offers.java:40)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="Validate_Sandisk()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:51:21 IST" name="Validate_Sandisk" finished-at="2022-10-21T11:51:26 IST" duration-ms="5051" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_Sandisk -->
-        <test-method is-config="true" signature="Navigate_to()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:03:41 IST" name="Navigate_to" finished-at="2022-10-21T02:03:47 IST" duration-ms="5636" status="PASS">
+        <test-method is-config="true" signature="Navigate_to()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:51:26 IST" name="Navigate_to" finished-at="2022-10-21T11:51:32 IST" duration-ms="5916" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Navigate_to -->
-        <test-method is-config="true" signature="Handle_pop_up()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:03:47 IST" name="Handle_pop_up" finished-at="2022-10-21T02:03:52 IST" duration-ms="5095" status="PASS">
+        <test-method is-config="true" signature="Handle_pop_up()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:51:32 IST" name="Handle_pop_up" finished-at="2022-10-21T11:51:37 IST" duration-ms="5128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Handle_pop_up -->
-        <test-method signature="Validate_Soundbar_Home_theatres()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:03:52 IST" name="Validate_Soundbar_Home_theatres" finished-at="2022-10-21T02:03:57 IST" duration-ms="5041" status="FAIL">
+        <test-method signature="Validate_Soundbar_Home_theatres()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:51:37 IST" name="Validate_Soundbar_Home_theatres" finished-at="2022-10-21T11:51:42 IST" duration-ms="5043" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div//div[text()='Soundbars and Home Theatres']"}
@@ -424,8 +497,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'AKSHAY', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\aksha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60415}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a6f1496f41394eed3632cbd6ed33b944
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\aksha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a4d852104c10987c77cf2b88129c40d
 *** Element info: {Using=xpath, value=//div//div[text()='Soundbars and Home Theatres']}]]>
             </message>
             <full-stacktrace>
@@ -435,8 +508,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'AKSHAY', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\aksha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60415}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a6f1496f41394eed3632cbd6ed33b944
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\aksha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a4d852104c10987c77cf2b88129c40d
 *** Element info: {Using=xpath, value=//div//div[text()='Soundbars and Home Theatres']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
@@ -492,15 +565,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_Soundbar_Home_theatres -->
-        <test-method is-config="true" signature="Navigate_to()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:03:57 IST" name="Navigate_to" finished-at="2022-10-21T02:04:03 IST" duration-ms="5758" status="PASS">
+        <test-method is-config="true" signature="Navigate_to()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:51:42 IST" name="Navigate_to" finished-at="2022-10-21T11:51:48 IST" duration-ms="5767" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Navigate_to -->
-        <test-method is-config="true" signature="Handle_pop_up()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:04:03 IST" name="Handle_pop_up" finished-at="2022-10-21T02:04:08 IST" duration-ms="5098" status="PASS">
+        <test-method is-config="true" signature="Handle_pop_up()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:51:48 IST" name="Handle_pop_up" finished-at="2022-10-21T11:51:53 IST" duration-ms="5116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Handle_pop_up -->
-        <test-method signature="Validate_Water_Bottle()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:04:08 IST" name="Validate_Water_Bottle" finished-at="2022-10-21T02:04:13 IST" duration-ms="5043" status="FAIL">
+        <test-method signature="Validate_Water_Bottle()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:51:53 IST" name="Validate_Water_Bottle" finished-at="2022-10-21T11:51:58 IST" duration-ms="5030" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div//div[text()='Water Bottles']"}
@@ -509,8 +582,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'AKSHAY', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\aksha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60415}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a6f1496f41394eed3632cbd6ed33b944
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\aksha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a4d852104c10987c77cf2b88129c40d
 *** Element info: {Using=xpath, value=//div//div[text()='Water Bottles']}]]>
             </message>
             <full-stacktrace>
@@ -520,8 +593,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'AKSHAY', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\aksha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60415}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a6f1496f41394eed3632cbd6ed33b944
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\aksha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a4d852104c10987c77cf2b88129c40d
 *** Element info: {Using=xpath, value=//div//div[text()='Water Bottles']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
@@ -577,35 +650,108 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_Water_Bottle -->
-        <test-method is-config="true" signature="Navigate_to()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:04:13 IST" name="Navigate_to" finished-at="2022-10-21T02:04:19 IST" duration-ms="5901" status="PASS">
+        <test-method is-config="true" signature="Navigate_to()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:51:58 IST" name="Navigate_to" finished-at="2022-10-21T11:52:05 IST" duration-ms="6959" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Navigate_to -->
-        <test-method is-config="true" signature="Handle_pop_up()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:04:19 IST" name="Handle_pop_up" finished-at="2022-10-21T02:04:24 IST" duration-ms="5096" status="PASS">
+        <test-method is-config="true" signature="Handle_pop_up()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:52:05 IST" name="Handle_pop_up" finished-at="2022-10-21T11:52:10 IST" duration-ms="5139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Handle_pop_up -->
-        <test-method signature="Validate_pens()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:04:24 IST" name="Validate_pens" finished-at="2022-10-21T02:04:29 IST" duration-ms="5042" status="PASS">
+        <test-method signature="Validate_pens()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:52:10 IST" name="Validate_pens" finished-at="2022-10-21T11:52:15 IST" duration-ms="5033" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div//div[text()='Pens']"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AKSHAY', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\aksha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a4d852104c10987c77cf2b88129c40d
+*** Element info: {Using=xpath, value=//div//div[text()='Pens']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div//div[text()='Pens']"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AKSHAY', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\aksha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62607}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a4d852104c10987c77cf2b88129c40d
+*** Element info: {Using=xpath, value=//div//div[text()='Pens']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy14.getText(Unknown Source)
+at pom_package.TOP_Offer.pens(TOP_Offer.java:102)
+at test_package.Validate_Top_Offers.Validate_pens(Validate_Top_Offers.java:71)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_pens -->
-        <test-method is-config="true" signature="Navigate_to()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:04:29 IST" name="Navigate_to" finished-at="2022-10-21T02:04:35 IST" duration-ms="5695" status="PASS">
+        <test-method is-config="true" signature="Navigate_to()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:52:15 IST" name="Navigate_to" finished-at="2022-10-21T11:52:21 IST" duration-ms="5889" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Navigate_to -->
-        <test-method is-config="true" signature="Handle_pop_up()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:04:35 IST" name="Handle_pop_up" finished-at="2022-10-21T02:04:40 IST" duration-ms="5104" status="PASS">
+        <test-method is-config="true" signature="Handle_pop_up()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:52:21 IST" name="Handle_pop_up" finished-at="2022-10-21T11:52:26 IST" duration-ms="5125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Handle_pop_up -->
-        <test-method signature="Validate_top_offer_text()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:04:40 IST" name="Validate_top_offer_text" finished-at="2022-10-21T02:04:45 IST" duration-ms="5047" status="PASS">
+        <test-method signature="Validate_top_offer_text()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:52:26 IST" name="Validate_top_offer_text" finished-at="2022-10-21T11:52:31 IST" duration-ms="5045" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_top_offer_text -->
-        <test-method is-config="true" signature="Navigate_to()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:04:45 IST" name="Navigate_to" finished-at="2022-10-21T02:04:51 IST" duration-ms="5735" status="PASS">
+        <test-method is-config="true" signature="Navigate_to()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:52:31 IST" name="Navigate_to" finished-at="2022-10-21T11:52:38 IST" duration-ms="6555" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Navigate_to -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T02:04:51 IST" name="quit" finished-at="2022-10-21T02:04:51 IST" duration-ms="252" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:test_package.Validate_Top_Offers@71def8f8]" started-at="2022-10-21T11:52:38 IST" name="quit" finished-at="2022-10-21T11:52:38 IST" duration-ms="262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->

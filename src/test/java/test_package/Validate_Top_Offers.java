@@ -136,21 +136,5 @@ public class Validate_Top_Offers extends Base_Class {
 	public void quit() {
 		Quit_Browser();
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
 }

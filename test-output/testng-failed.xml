@@ -5,16 +5,18 @@
     <classes>
       <class name="test_package.Validate_Top_Offers">
         <methods>
-          <include name="Validate_Sandisk"/>
           <include name="Initial_Activity"/>
           <include name="quit"/>
+          <include name="Validate_Musical_toys"/>
           <include name="Validate_Water_Bottle"/>
           <include name="Navigate_to"/>
-          <include name="Validate_Learning_toy"/>
+          <include name="Validate_Hp_mouse"/>
           <include name="Validate_Soundbar_Home_theatres"/>
           <include name="Handle_pop_up"/>
+          <include name="Validate_Lunch_Box"/>
           <include name="Validate_Office_supplies"/>
           <include name="Validate_Puzzle"/>
+          <include name="Validate_pens"/>
         </methods>
       </class> <!-- test_package.Validate_Top_Offers -->
     </classes>
